@@ -17,7 +17,7 @@
    - Sử dụng lệnh `/newbot` để tạo bot mới
    - Làm theo hướng dẫn và lấy API token của bot
 
-1.1   Import file srcdb.sql vào phpmyadmin
+   1.1.   Import file srcdb.sql vào phpmyadmin
 
 2. Mở file `.env` và thay đổi các thông tin sau:
    ```php
@@ -29,7 +29,7 @@
    CHAT_ID=-Your_Telegram_Chat_ID_Here; // Thay thế bằng ID chat của bạn hoặc nhóm
    LICENSE_KEY=                         // Thay thế bằng license key
    ```
-2.1 Để có license key
+   2.1. Để có license key
    - Liên hệ [@minhduc290613](https://t.me/@minhduc290613) qua telegram để lấy key
 
 3. Để lấy Chat ID:
