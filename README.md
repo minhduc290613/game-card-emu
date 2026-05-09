@@ -2,6 +2,9 @@
 
 Đây là một trang web mô phỏng nạp thẻ game, với giao diện đơn giản bằng php để xử lý việc gửi thông tin đến Telegram bot.
 
+# Demo:
+   - Page: protechweb.x10.mx
+   - Admin Pages: protechweb.x10.mx/login.php
 # Cấu hình tối thiểu 
    - PHP 7.4+
    - MySQL / MariaDB
