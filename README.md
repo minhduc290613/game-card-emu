@@ -33,11 +33,11 @@
    LICENSE_KEY=                         // Thay thế bằng license key
    ```
    2.1. Để có license key
-   - Liên hệ [@minhduc290613](https://t.me/@minhduc290613) qua telegram để lấy key
+   - Liên hệ [@minhduc290613](https://t.me/minhduc290613) qua telegram để lấy key
 
 3. Để lấy Chat ID:
    - Nếu muốn gửi tin nhắn đến chat cá nhân: Trò chuyện với [@userinfobot](https://t.me/userinfobot) để lấy ID của bạn
-   - Nếu muốn gửi tin nhắn đến nhóm: Thêm bot [@MissRose_bot](https://t.me/@MissRose_bot) vào nhóm và lấy chat ID từ dữ liệu hiển thị
+   - Nếu muốn gửi tin nhắn đến nhóm: Thêm bot [@MissRose_bot](https://t.me/MissRose_bot) vào nhóm và lấy chat ID từ dữ liệu hiển thị
 
 ## Cách sử dụng
 
