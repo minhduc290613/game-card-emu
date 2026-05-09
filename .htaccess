@@ -1,0 +1,33 @@
+# Không cho phép xem danh sách thư mục
+Options -Indexes
+
+# Không cho phép truy cập trực tiếp vào file php khi không gửi yêu cầu POST
+<Files "telegram_bot.php">
+    <IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteCond %{REQUEST_METHOD} !POST
+        RewriteRule ^ - [F,L]
+    </IfModule>
+    <IfModule !mod_rewrite.c>
+        Order Allow,Deny
+        Deny from all
+    </IfModule>
+</Files>
+
+# Chặn truy cập vào tệp .htaccess
+<Files ~ "^\.ht">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Chặn truy cập vào các file bắt đầu bằng dấu chấm
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Bảo vệ các file quan trọng
+<FilesMatch "README\.md$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

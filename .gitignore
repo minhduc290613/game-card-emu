@@ -1,25 +1,14 @@
-# CakePHP 3
+# Bỏ qua file chứa token
+telegram_bot.php
 
-/vendor/*
-/config/app.php
+# Bỏ qua các file hệ thống
+.DS_Store
+Thumbs.db
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Bỏ qua các file log và cache
+*.log
+*.cache
+.htaccess
 
-/logs/*
-!/logs/empty
-
-# CakePHP 2
-
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Nếu bạn sử dụng file cấu hình riêng, hãy thêm nó vào đây
+config.php

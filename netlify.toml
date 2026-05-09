@@ -1,0 +1,18 @@
+[build]
+  # Đây là trang tĩnh, không cần build
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "16"
+
+# Không xử lý file PHP
+[[headers]]
+  for = "/*.php"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+# Tối ưu hóa cache
+[[headers]]
+  for = "/*.(css|js|png|jpg|jpeg|gif|webp|svg|woff|woff2)"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
