@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once 'env.php';
-require_once 'license.php';
+
 
 if (!isset($_SESSION['admin_logged_in'])) {
     header("Location: login.php");
