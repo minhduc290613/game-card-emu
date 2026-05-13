@@ -3,7 +3,6 @@
 header('Content-Type: application/json; charset=utf-8');
 
 require_once 'env.php';
-require_once 'license.php';
 
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 
