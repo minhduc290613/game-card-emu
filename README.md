@@ -30,10 +30,7 @@
    DB_PASS=          // Thay thế bằng Mật khẩu Database
    BOT_TOKEN=Your_Telegram_Bot_Token_Here // Thay thế bằng token bot của bạn
    CHAT_ID=-Your_Telegram_Chat_ID_Here; // Thay thế bằng ID chat của bạn hoặc nhóm
-   LICENSE_KEY=                         // Thay thế bằng license key
    ```
-   2.1. Để có license key
-   - Liên hệ [@minhduc290613](https://t.me/minhduc290613) qua telegram để lấy key
 
 3. Để lấy Chat ID:
    - Nếu muốn gửi tin nhắn đến chat cá nhân: Trò chuyện với [@userinfobot](https://t.me/userinfobot) để lấy ID của bạn
